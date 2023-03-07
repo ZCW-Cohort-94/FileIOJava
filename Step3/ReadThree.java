@@ -14,8 +14,8 @@ public class ReadThree
             // Create the file to write to
             PrintWriter fileOut = new PrintWriter("output.txt");
             // Write text just like we would to the console
-            fileOut.println("Hello ");
-            // Clode out file
+            fileOut.println("There's a snake in my boot!");
+            // Close out file
             fileOut.close();  
 
             System.out.println("Done!");

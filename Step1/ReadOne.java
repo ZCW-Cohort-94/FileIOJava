@@ -1,6 +1,6 @@
-import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class ReadOne
 {
@@ -12,11 +12,11 @@ public class ReadOne
         try {
             // Create the Scanner object using the file
             // as input
-            Scanner fileIn = new Scanner(new File("input.txt"));
+            Scanner fileIn = new Scanner(new File("/Users/jake/Desktop/Projects/FileIOJava/Step1/input.txt"));
             
             /* Loop while the file still has lines.
              * .hasNext() looks to see if a line exists
-             * but it doesn't read the line.
+             * ,but it doesn't read the line.
              */
             while (fileIn.hasNext()) 
             {
