@@ -7,21 +7,22 @@ import java.io.PrintWriter;
 
 public class ReadThree
 {
-    public static void main(String[] args)
+    public static void main (String[] args)
     {
         try{
             System.out.print("Writing to file ... ");
             // Create the file to write to
-            PrintWriter fileOut = new PrintWriter("output.txt");
+            PrintWriter fileOut = new PrintWriter("src/main/java/Step3/output.txt");
             // Write text just like we would to the console
             fileOut.println("Hello ");
-            // Clode out file
-            fileOut.close();  
-
+            // Close out file
             System.out.println("Done!");
+            fileOut.close();
+
+
             
             // Read in file to verify it
-            Scanner fileIn = new Scanner(new File("output.txt"));
+            Scanner fileIn = new Scanner(new File("src/main/java/Step3/output.txt"));
             
             System.out.println("Reading from file ... ");
             while (fileIn.hasNext()) 

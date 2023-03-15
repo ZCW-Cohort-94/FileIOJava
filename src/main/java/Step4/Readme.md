@@ -4,7 +4,7 @@ Now it is your turn to try! Read in the input file and add the value to a sum. P
 
 ```
 Running total = 4
-Runnint total = 14
+Running total = 14
 Running total = 17
 ...
 ```
